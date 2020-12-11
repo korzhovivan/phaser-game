@@ -16,7 +16,7 @@ const config = {
         }
     },
     parent: 'game',
-    scene: [LoadScene,MenuScene,Level_1]
+    scene: [MenuScene,Level_1]
     
 };
 

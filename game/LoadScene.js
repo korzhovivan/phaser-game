@@ -1,5 +1,3 @@
-import MenuScene from './MenuScene.js';
-
 export default class LoadScene extends Phaser.Scene{
 
     constructor(){
@@ -8,10 +6,6 @@ export default class LoadScene extends Phaser.Scene{
     
 
     preload(){
-        
-        
-        //this.load.audio('menu-song', '../assets/menu-song.mp3');
-
         //Make loading bar
         let loadingBar = this.add.graphics({
             fillStyle: {
@@ -37,6 +31,5 @@ export default class LoadScene extends Phaser.Scene{
         this.scene.start('MenuScene')
     }
     update(){
-
     }
 }
