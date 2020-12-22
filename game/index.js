@@ -2,6 +2,8 @@
 import Level_1 from './Level_1.js';
 import LoadScene from './LoadScene.js';
 import MenuScene from './MenuScene.js';
+import ChooseLevelScene from './ChooseLevelScene.js';
+import OptionsScene from './OptionsScene.js';
 
 
 const config = {
@@ -16,7 +18,7 @@ const config = {
         }
     },
     parent: 'game',
-    scene: [MenuScene,Level_1]
+    scene: [ChooseLevelScene]
     
 };
 
