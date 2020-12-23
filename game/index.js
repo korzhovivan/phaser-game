@@ -18,7 +18,13 @@ const config = {
         }
     },
     parent: 'game',
-    scene: [ChooseLevelScene]
+    scene: [
+        // LoadScene,
+        // MenuScene,
+        ChooseLevelScene,
+        OptionsScene,
+        Level_1
+    ]
     
 };
 
